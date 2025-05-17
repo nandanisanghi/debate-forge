@@ -1,73 +1,26 @@
-# Welcome to your Lovable project
+Debate Forge AI is a full-stack, AI-powered web platform that lets users engage in structured debates with others — or even with AI opponents. It uses state-of-the-art language models (like GPT-4) to generate real-time counterarguments, evaluate reasoning, and simulate multi-perspective discussions. Designed for students, debaters, and curious minds, the platform encourages critical thinking, civic dialogue, and argument skill-building.
 
-## Project info
+Whether you're prepping for a competition, exploring a social issue, or just want to play devil’s advocate — Debate Forge AI makes it fast, engaging, and intellectually rich.
 
-**URL**: https://lovable.dev/projects/0c617092-24e0-4bf4-922f-40f330a724c7
+🚀 Live Features
+Feature	Description
+💬 AI-Generated Counterarguments	Argue your point and receive smart, context-aware rebuttals
+👥 Human vs Human or Human vs AI Modes	Debate real users or the AI as your opponent
+🧠 Argument Scoring Engine	Rates arguments based on coherence, logic, emotional appeal, and structure
+📊 Debate Summary & Feedback	Get instant post-debate breakdowns with feedback and a winner suggestion
+🧾 Topic Generator	Random or trending debate prompts across politics, tech, ethics, etc.
+🕹️ Custom Rules & Timers	Control format (Oxford, Lincoln-Douglas, freestyle) and pacing
+🗃️ History & Replays	Review past debates and share your best moments
 
-## How can I edit this code?
+🏗️ Tech Stack
+Frontend: React.js (or Next.js), Tailwind CSS
 
-There are several ways of editing your application.
+Backend: Node.js / Express or FastAPI
 
-**Use Lovable**
+Database: PostgreSQL or MongoDB
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0c617092-24e0-4bf4-922f-40f330a724c7) and start prompting.
+AI Models: OpenAI GPT-4 / Claude / Hugging Face Transformers
 
-Changes made via Lovable will be committed automatically to this repo.
+NLP Tools: Sentiment analysis, argument mining, keyword extraction
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0c617092-24e0-4bf4-922f-40f330a724c7) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Real-Time: WebSockets (Socket.IO) for live debates
